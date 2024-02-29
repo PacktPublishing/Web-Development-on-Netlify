@@ -1,0 +1,30 @@
+<script>
+    document.getElementById("myForm").addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevent the default form submission
+      // Collect form data
+      const formData = new FormData(this);
+      const formObject = {};
+      formData.forEach((value, key) => {
+        formObject[key] = value;
+      });
+      // Dummy endpoint (replace with your actual endpoint)
+      const endpoint = "https://example.com/dummy_endpoint";
+      // Perform a POST request to the dummy endpoint
+      fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formObject),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          // Handle the response from the server (if needed)
+          console.log("Response from server:", data);
+        })
+        .catch((error) => {
+          // Handle any errors that occurred during the fetch
+          console.error("Error:", error);
+        });
+    });
+  </script>
