@@ -30,7 +30,7 @@ async function handler(event, context) {
             <td>${price.price * 3}</td> 
             </tr> 
             </tbody> 
-            </table> ;`
+            </table>`;
     // Return the pricing table 
     return {
         statusCode: 200,
