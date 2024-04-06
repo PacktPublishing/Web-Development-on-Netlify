@@ -1,8 +1,6 @@
-import { scheduled } from '@netlify/functions';
-
-async function handler() {
-    // Do something
+export default async (req) => {
+    // Call my mom
 }
-export default scheduled(handler, {
-    schedule: '0 0 * * *', // Every day at midnight 
-});
+export const config = {
+    schedule: "@daily"
+}
