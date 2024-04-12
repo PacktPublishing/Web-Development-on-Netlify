@@ -45,10 +45,10 @@ With the following software and hardware list you can run all code files present
 
 ### Software and Hardware List
 
-| Chapter  | Software required        | OS required                      |
-| -------- | -------------------------| ---------------------------------|
-| 1-7      | Netlify                  | Windows, macOS, or Linux         |
-| 1-7      | Git                      | Windows, macOS, or Linux         |
+| Chapter  | Software required        | OS required                     |
+| -------- | -------------------------| --------------------------------|
+| 1-7      | Netlify                  | Windows, macOS, or Linux        |
+| 1-7      | Git                      | Windows, macOS, or Linux        |
 
 
 ### Related products <Other books you may enjoy>
